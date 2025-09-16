@@ -25,7 +25,7 @@ public class Proper {
     }
     public static void main(String[] args) {
         int n = 5;
-       // solve(n);
+       solve(n);
         solveInverted(n);
     }
 }
