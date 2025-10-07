@@ -23,7 +23,6 @@ public class LeftRotateByDp2 {
         }
     }
     static void leftRotateByDp2(int a[], int n, int d){
-        n = a.length;
         reverse(a, 0, d-1 ); //Reverse first d elements
         reverse(a, d, n-1); //Reverse elements after d elements
         reverse(a, 0, n-1); //Reverse the entire array
